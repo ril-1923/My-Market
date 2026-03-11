@@ -1,0 +1,58 @@
+.navbar{
+	height: 100px;
+	border-bottom: 1px solid rgba(255,255,255, .1);
+}
+
+.navbar .navbar-nav .nav-link{
+	padding: 10px 15px;
+	font-size: 15px;
+	transition: 0.5s;
+}
+a.nav-itemnav-link
+{
+	text-decoration: none;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active,
+.fixed-top.bg-white .navbar .navbar-nav .nav-link:hover,
+.fixed-top.bg-white .navbar .navbar-nav .nav-link.active{
+	color: var(--bs-primary)
+}
+	.fruits .tabclass .nav-item a .active{
+	background: var(--bs-secondary) !important;
+}
+.fruits .tabclass .nav-item a .active span{
+	background: var(--bs-white) !important;
+}
+.fruits .fruit-item
+{
+	height: 100%;
+	transition: 0.5s;
+}
+.fruits .fruit-item:hover
+{
+	box-shadow: 0 0 55px rgba(0, 0, 0, 0.4);
+}
+.fruits .fruit-item .fruit-img{
+	overflow: hidden;
+	transition: 0.5s;
+	border-radius: 10px 10px 0 0;
+}
+
+.fruits .fruit-item .fruit-img img{
+	transition: 0.5s;
+}
+
+.fruits .fruit-item .fruit-img img:hover{
+	transform: scale(1.4);
+}
+div.fruit-img1
+{
+	position: absolute;
+	top:30px;
+	left: 550px;
+}
+.p1
+{
+	position: static;
+}
